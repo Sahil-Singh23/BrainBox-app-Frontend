@@ -13,7 +13,7 @@ function App() {
       
       {/* <Button variant="primary" text='Add Content' onClick={()=>{}} size="md" startIcon={<PlusIcon size="lg"></PlusIcon>}></Button>
       <Button variant="secondary" text='Share Brain' onClick={()=>{}} size="md" startIcon={<ShareIcon size='lg'></ShareIcon>}></Button> */}
-      <Card></Card>
+      <Card type="twitter" title="first tweet"></Card>
     </>
   ) 
 }
