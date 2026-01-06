@@ -20,7 +20,7 @@ function DashBoard() {
       <Button variant="secondary" text='Share Brain' onClick={()=>{}} size="md" startIcon={<ShareIcon size='lg'></ShareIcon>}></Button> 
        </div>
     </nav>
-    <section className='columns-1 sm:columns-2 lg:columns-3 gap-8 max-w-7xl mt-12 mx-auto'>
+    <section className='columns-1 sm:columns-2 lg:columns-3 gap-4 max-w-7xl mt-12 mx-auto'>
       
       <Card type="twitter" title="first tweet"></Card>
       <Card type="youtube" title="polymath"></Card>

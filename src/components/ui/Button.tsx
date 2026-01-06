@@ -21,7 +21,7 @@ const sizeStyles = {
     "lg": "py-4 px-6 ",
 }
 
-const defaultStyles ="rounded-md flex gap-2 text-light "
+const defaultStyles ="rounded-md flex gap-2 text-light shadow cursor-pointer"
 
 export const Button = (props: ButtonProps) =>{
     return<button className={`${variantStyles[props.variant]} ${defaultStyles} ${sizeStyles[props.size]}`} onClick={props.onClick}>{props.startIcon} {props.text}</button>
