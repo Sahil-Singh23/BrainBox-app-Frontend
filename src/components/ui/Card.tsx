@@ -45,7 +45,7 @@ const Card = ({title,link,type}: CardProps) => {
                 </blockquote>)}
 
 
-            {(type==="pinterest" && <a data-pin-do="embedPin" data-pin-width="medium" href="https://pin.it/SZIIy2zWr "></a>)}
+            {(type==="pinterest" && <a data-pin-do="embedPin" data-pin-width="medium" href="https://in.pinterest.com/pin/163255555238023706/"></a>)}
 
             {(type==="youtube" && <iframe className="w-full rounded-xl aspect-video" src="https://www.youtube.com/embed/IkPabpDzmT4?si=pjA6rrw8c9WIKgyZ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>)}
 
