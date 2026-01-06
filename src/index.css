@@ -4,3 +4,6 @@
   --color-primary: #5046e4;
   --color-secondary: #e0e7fe;
 }
+body{
+    background-color: tomato;
+}
