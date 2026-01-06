@@ -36,7 +36,7 @@ const CreateContentModel = ({open,onClose}) => {
 
     const handleSubmit = async () => {
         let finalLink = link;
-        
+         
         if (type === 'pinterest' && link.includes('pin.it')) {
             finalLink = await resolvePinterestUrl(link);
         }
