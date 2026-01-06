@@ -14,7 +14,7 @@ function App() {
   return (
     <section className='columns-1 sm:columns-2 lg:columns-3 gap-8 max-w-7xl mt-20 mx-auto'>
       
-      <Button variant="primary" text='Add Content'  onClick={()=>setOpen(false)} size="md" startIcon={<PlusIcon size="lg"></PlusIcon>}></Button>
+      <Button variant="primary" text='Add Content'  onClick={()=>setOpen(true)} size="md" startIcon={<PlusIcon size="lg"></PlusIcon>}></Button>
       
       <Button variant="secondary" text='Share Brain' onClick={()=>{}} size="md" startIcon={<ShareIcon size='lg'></ShareIcon>}></Button> 
       
@@ -22,7 +22,7 @@ function App() {
       <Card type="youtube" title="polymath"></Card>
       <Card type="instagram" title="valorant latest update"></Card>
       <Card type="pinterest" title="snekars"></Card>
-      <CreateContentModel open={open} ></CreateContentModel>
+      <CreateContentModel open={open} onClose={()=>setOpen(false)}></CreateContentModel>
     </section>
   ) 
 }
